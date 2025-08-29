@@ -1,0 +1,16 @@
+
+/* Simple, sleek style */
+:root{--accent:#6b5bff;--bg:#0b0b0d;--card:#0f1114;--text:#e6e6e6}
+*{box-sizing:border-box}
+body{font-family:Inter,Segoe UI,system-ui,Arial,sans-serif;background:linear-gradient(180deg,#050505,#0b0b0d);color:var(--text);margin:0;padding:0;line-height:1.4}
+header{padding:28px 20px;border-bottom:1px solid rgba(255,255,255,0.04)}
+h1{margin:0;font-size:1.8rem}
+.tag{color:rgba(255,255,255,0.6);margin-top:6px}
+nav{margin-top:10px}
+nav a{color:rgba(255,255,255,0.75);text-decoration:none;margin-right:10px;font-weight:600}
+main{padding:22px;max-width:980px;margin:0 auto}
+section{background:rgba(255,255,255,0.02);padding:18px;border-radius:10px;margin-bottom:14px}
+pre.scripture{white-space:pre-wrap;font-family:inherit;overflow:auto;max-height:60vh;padding:12px;background:rgba(0,0,0,0.3);border-radius:8px}
+footer{padding:18px;text-align:center;color:rgba(255,255,255,0.45);font-size:0.9rem}
+.button{display:inline-block;background:var(--accent);color:white;padding:8px 12px;border-radius:8px;text-decoration:none}
+small.hint{color:rgba(255,255,255,0.55)}

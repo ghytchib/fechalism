@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Join Fechalism — Course Login</title>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<header>
+  <h1>Join the Fechalism Course</h1>
+  <p class="tag">Enter your email to join the course mailing list.</p>
+  <nav><a href="index.html">Home</a> · <a href="scripture.html">Scripture</a></nav>
+</header>
+<main>
+  <section>
+    <h2>Quick Join</h2>
+    <p>Type your email and click <em>Join</em>. This will:</p>
+    <ol>
+      <li>Open your email app with a pre-filled message to <code>fechalism@community.org</code> (so the community owner receives your request), and</li>
+      <li>Create a downloadable small CSV file with the email so you (and we) can keep a local copy.</li>
+    </ol>
+    <form id="joinForm">
+      <label for="email">Email address</label><br/>
+      <input id="email" name="email" type="email" placeholder="name@example.com" required style="padding:8px;margin:8px 0;border-radius:6px;border:1px solid rgba(255,255,255,0.08);width:100%;max-width:360px;background:transparent;color:inherit"/><br/>
+      <button class="button" type="submit">Join</button>
+      <button id="downloadBtn" class="button" type="button" style="margin-left:8px;background:transparent;border:1px solid rgba(255,255,255,0.08)">Download CSV</button>
+    </form>
+    <p class="hint">No server involved — email opens your mail app and CSV downloads to your device. To collect emails centrally, host the site and hook the form up to a service like Formspree, Google Forms, or Netlify Forms.</p>
+  </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
